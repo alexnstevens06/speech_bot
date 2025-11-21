@@ -17,3 +17,9 @@ def get_model_name():
 
 def get_api_env_key():
     return config_accessor["api_key_environment_name"]
+
+def get_temp_file():
+    return config_accessor["temp_file_write"]
+
+def list_elements():
+    print(config_accessor.keys())
