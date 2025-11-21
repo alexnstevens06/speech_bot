@@ -23,3 +23,15 @@ def get_temp_file():
 
 def list_elements():
     print(config_accessor.keys())
+
+def get_base_AI_persona():
+    return config_accessor["base_AI_persona"]
+
+def get_base_user_persona():
+    return config_accessor["base_user_persona"]
+
+def get_base_scenario_prompt():
+    return config_accessor["base_scenario_prompt"]
+
+def get_system_prompt():
+    return config_accessor["system_prompt"]
