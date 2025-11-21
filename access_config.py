@@ -35,3 +35,6 @@ def get_base_scenario_prompt():
 
 def get_system_prompt():
     return config_accessor["system_prompt"]
+
+def get_transcript_path():
+    return config_accessor["transcript_path"]
